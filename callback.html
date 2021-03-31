@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready( () => {
+            $('#hide').click( () => {
+                $('p').hide(3000, () =>{
+                    alert("You got Hacked")
+                });
+                
+            })
+        })
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sit rem reiciendis iste enim, neque illo porro a. Maiores, at commodi! Illum quasi nostrum a dolores alias eligendi possimus repellat eaque, doloremque non, debitis qui aliquid minus rem, itaque saepe commodi dignissimos minima doloribus quis amet quos vitae quas! Harum?</p>
+<button id="hide">Hide the Paragraph</button>
+</body>
+</html>
